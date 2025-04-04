@@ -14,4 +14,10 @@ public class Sender{
         System.out.println("[Sender]-Message was Created");
         return  message;
     }
+    
+    
+   public void sendMsg(Message msg , Reciever rec){
+       System.out.println("[Sender]-Message send to reciever");
+       rec.recieveMessage(msg)
+   }
 }
